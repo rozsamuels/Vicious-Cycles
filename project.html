@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="project.css" />
+</head>
+<body>
+    <div id="heading">
+    <heading>
+        <h1>Kameron Smith</h1>
+        <p>WEB-115 Section, 4101</p>
+        <p>Build Your Resume</p>
+        <button id="light">Light Mode</button> <button id="dark">Dark Mode</button> <button id="default">Defualt Color</button>
+        <br>
+        <button id="increase_text">Increase Text Size</button>
+        <br><br>
+    </heading>
+    </div>
+
+    <div id="information">
+    <p> 
+        <label>Enter your full name</label><br>
+        <input type = "text" id = "name"><br><br>
+        <label>Enter your email</label><br>
+        <input type = "text" id = "email"><br><br>
+        <label>Enter your phone number</label><br>
+        <input type = "text" id = "phone" placeholder="Ex. 123-456-7890"><br><br>
+        <label>Enter your city</label><br>
+        <input type = "text" id = "city"><br><br>
+        <label>Enter your state</label><br>
+        <input type = "text" id = "state"><br><br>
+        <label>Enter your zip code</label><br>
+        <input type = "text" id = "zip" placeholder="Ex.12345"><br><br><br>
+    </p>
+    </div>
+
+    <div id="skillSets">
+        <a id="Experience-Heading" style="font-size: 30px;">Enter any previous skills you have</a><br><br>
+        <label>Coding Languages You Know</label><br>
+        <textarea id="coding" placeholder="List any and all coding languages you know"></textarea><br><br>
+        <label>Skills</label><br>
+        <textarea id="skills" placeholder="List any and all skills you may have"></textarea><br><br>
+        <label>Technical Skills</label><br>
+        <textarea id="technical" placeholder="List any and all technical skills you have"></textarea><br><br><br>
+    </div>
+
+    <div id="Experience">
+        <a id="Experience-Heading" style="font-size: 30px;">Enter any previous job experiences you have</a><br><br>
+        <!-- <div id="Past-Experience"></div> -->
+        <div id="Past-Experience1">
+            <a style="font-size: 30px; font-weight: bold;">Job Experiance 1</a><br>
+            <label>Company Name</label><br>
+            <input id="place1"></input><br><br>
+            <label>Start Date</label><br>
+            <input type="date" id="start-date1"><br><br>
+            <label>End Date</label><br>
+            <input type="date" id="end-date1"><br><br>
+            <label>Details</label><br>
+            <textarea id="details_1"></textarea><br><br>
+        </div>
+        <div id="Past-Experience2">
+            <a style="font-size: 30px; font-weight: bold;">Job Experiance 2</a><br>
+            <label>Company Name</label><br>
+            <input id="place2"></input><br><br>
+            <label>Start Date</label><br>
+            <input type="date" id="start-date2"><br><br>
+            <label>End Date</label><br>
+            <input type="date" id="end-date2"><br><br>
+            <label>Details</label><br>
+            <textarea id="details_2"></textarea><br><br>
+        </div>
+        <div id="Past-Experience3">
+            <a style="font-size: 30px; font-weight: bold;">Job Experiance 3</a><br>
+            <label>Company Name</label><br>
+            <input id="place3"></input><br><br>
+            <label>Start Date</label><br>
+            <input type="date" id="start-date3"><br><br>
+            <label>End Date</label><br>
+            <input type="date" id="end-date3"><br><br>
+            <label>Details</label><br>
+            <textarea id="details_3"></textarea><br><br>
+        </div>
+        <!-- <input type="button" id="Past-Job" value="Add Job Experience"><br><br><br> -->
+    </div>
+
+    <div id="Education">
+        <a id="Education-Heading" style="font-size: 30px;">Education</a><br><br>
+        <label>Select your highest education completed</label><br>
+        <select name="Education" id="education">
+            <option hidden selected></option>
+            <option value="High School">High School</option>
+            <option value="Associate Degree">Associate Degree</option>
+            <option value="Bachelor's Degree">Bachelor's Degree</option>
+            <option value="Graduate Degree">Graduate Degree</option>
+            <option value="Doctorate">Doctorate</option>
+            <option value="Master's Degree">Master's Degree</option>
+        </select>
+        <br> <br>
+        <label>Anything else you would like to add</label>
+        <br>
+        <textarea id="additional-information"></textarea>
+    </div>
+
+    <br><br><input type="button" id="create" value="Create Resume">
+    
+    <script src = "project.js" defer></script>
+</body>
+</html>
