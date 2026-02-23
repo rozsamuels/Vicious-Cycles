@@ -1,0 +1,300 @@
+
+/* Add font files for Rock Salt */
+@font-face {
+  font-family: 'Rock Salt';
+  src: url('fonts/rock-salt.woff2') format('woff2'),
+       url('fonts/rock-salt.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --font-family-roboto: 'Roboto', sans-serif;
+  --font-family-rock-salt: 'Rock Salt', sans-serif;
+  --Black: rgba(0, 0, 0, 1);
+  --Dark Warm Gray: rgba(106, 88, 73, 1);
+  --Rust: rgba(206, 63, 2, 1);
+  --Light Warm Gray: rgba(220, 218, 217, 1);
+  --Medium Warm Gray: rgba(172, 167, 167, 1);
+  --Background: rgba(253, 249, 240, 1);
+  --text-black: rgba(0, 0, 0, 1);
+  --text-white: rgba(255, 255, 255, 1);
+  --text-rgb-206-63-2: rgba(206, 63, 2, 1);
+  --text-rgb-106-88-73: rgba(106, 88, 73, 1);
+  --text-rgb-255-255-202: rgba(255, 255, 202, 1);
+}
+
+.text-black {
+  color: var(--text-black);
+}
+
+.text-white {
+  color: var(--text-white);
+}
+
+.text-rgb-206-63-2 {
+  color: var(--text-rgb-206-63-2);
+}
+
+.text-rgb-106-88-73 {
+  color: var(--text-rgb-106-88-73);
+}
+
+.text-rgb-255-255-202 {
+  color: var(--text-rgb-255-255-202);
+}
+
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Prototype Links (v5.6.0) */
+a.prototype-link {
+  text-decoration: none;
+  color: inherit;
+  display: contents;
+}
+
+.rectangle-8-3 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: var(--Background);
+}
+
+.foodiesfeed-2-4 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  width: 100%;
+  height: auto;
+}
+
+.rectangle-1-5 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: var(--Medium Warm Gray);
+}
+
+.ellipse-3-6 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  fill: rgba(104, 91, 91, 1);
+  border: none;
+  outline: none;
+}
+
+.ellipse-4-7 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border: 1px solid rgba(104, 91, 91, 1);
+  border: none;
+  outline: none;
+}
+
+.ellipse-5-8 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border: 1px solid rgba(104, 91, 91, 1);
+  border: none;
+  outline: none;
+}
+
+.body-text {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  text-align: center;
+  font-family: var(--font-family-roboto);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-black);
+}
+
+.rectangle-4-11 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(206, 63, 2, 1);
+  border-radius: 14px;
+}
+
+.lg-button-text {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  text-align: center;
+  font-family: var(--font-family-roboto);
+  font-weight: 700;
+  font-size: 36px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-white);
+}
+
+.group-19-10 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.ellipse-6-14 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  border: 3px solid rgba(206, 63, 2, 1);
+  fill: rgba(253, 249, 240, 1);
+  border: none;
+  outline: none;
+}
+
+.text-17 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  text-align: right;
+  font-family: var(--font-family-rock-salt);
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 43px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-rgb-206-63-2);
+  font-family: var(--font-family-roboto);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-rgb-106-88-73);
+}
+
+.group-17-16 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.group-18-15 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.sushi-18 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  width: 100%;
+  height: auto;
+}
+
+.sunny-s-sushi-logo {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.test-account-19 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  width: 100%;
+  height: auto;
+}
+
+.rectangle-7-22 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(83, 78, 78, 1);
+}
+
+.group-9-21 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.copyright-or-caption {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  text-align: center;
+  font-family: var(--font-family-roboto);
+  font-weight: normal;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: none;
+  color: var(--text-rgb-255-255-202);
+}
+
+.group-38-20 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.pull-down-24 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  width: 100%;
+  height: auto;
+}
+
+.home-page-2 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.footersushiimage-1-25 {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  width: 100%;
+  height: auto;
+}
+
+.home-1 {
+@media (max-width: 1440px) {
+  .home-1 {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-1 {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  background-color: rgba(255, 255, 255, 1);
+}
